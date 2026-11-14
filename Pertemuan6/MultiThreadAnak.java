@@ -9,7 +9,6 @@ public class MultiThreadAnak extends Thread {
         this.nomorThread = nomorThread;
     }
 
-    @Override
     public void run() {
         System.out.println("Thread anak ke-" + nomorThread + " sedang berjalan.");
     }
